@@ -31,7 +31,7 @@ jwtClient.authorize(function(err, tokens) {
         'Content-Type: application/json\n\n' +
         JSON.stringify({
           url: line,
-          type: 'URL_UPDATED'
+          type: 'URL_DELETED'
         })
     };
   });
